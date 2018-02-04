@@ -1,0 +1,22 @@
+name,generation,lieu_naiss,naissance,deces,lat,lng,genre
+Philippe,1,Paris,1996,,48.843412,2.337437,m
+Lea,1,Boulogne,1994,,48.840849,2.249468,f
+Bertrand,0,Orleans,1958,,47.904350,1.902974,m
+Madeleine,-1,Olivet,1934,2016,47.853454,1.914899,f
+Jean-Claude,-1,Tremblay-sur-Meauldre,1932,,48.779188,1.874512,m
+Jean Edouard,-2,Tremblay-sur-Meauldre,1894,1953,48.776499,1.873441,m
+Marie,-2,Plaisir,1899,1991,48.804073,1.962566,f
+Edmond,-3,Tremblay-sur-Meauldre,1864,1936,48.778626,1.871014,m
+Lucie,-3,Chevreuse,1872,1955,48.710700,2.040283,f
+Elie Henri,-4,Jouy-en-Josas,1838,,48.766357,2.165982,m
+Louise Octave,-4,Essarts-le-Roi,,,48.716945,1.888441,f
+Joseph Antoine,-5,Wissous,1812,,48.729051,2.328244,m
+Marie-Françoise,-5,Les Loges,1817,,48.759604,2.138542,f
+Jacques Nicolas,-6,Wissous,1780,1821,48.717021,2.335709,m
+Jacques Joseph,-7,Wissous,1740,1802,48.720998,2.304128,m
+Jacques Joseph,-8,Wissous,1711,1816,48.747276,2.327886,m
+Denis,-9,Wissous,1686,1767,48.729925,2.345120,m
+Denis,-10,Wissous,1638,1709,48.738073,2.348248,m
+Adam,-11,Wissous,1595,,48.722051, 2.328244,m
+André,-2,Clery,1897,1988,47.820697,1.755677,m
+Rachel,-2,Olivet,1899,1979,47.866544,1.895207,f

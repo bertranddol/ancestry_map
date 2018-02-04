@@ -1,0 +1,37 @@
+---
+title: "Ancestry locale"
+author: "Bertrand Dolimier"
+date: "February 4th 2018"
+---
+
+```{r setup, include=FALSE,echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## Family Ancestry on a map
+
+The markers on the map plot the place of birth of the direct ancesters of an individual. 
+
+```{r brexit_map, echo=FALSE, warning=FALSE, message=FALSE }
+library(leaflet)
+
+myTree <- read.csv(file="fam_tree.csv", header=TRUE, sep=",")
+factpal <- colorFactor(topo.colors(3), myTree$generation)
+
+myTree %>%
+  leaflet() %>%
+  addTiles() %>% 
+  addCircleMarkers(
+    clusterOptions = markerClusterOptions(),
+    label = paste(myTree$name , "-" , myTree$lieu_naiss , "( " , myTree$naissance , "-", myTree$deces , " )" ),
+    color = ~ifelse(genre == "m", "blue", "red"),
+    stroke = TRUE,
+    fillOpacity = .8+(myTree$generation/10)
+  )
+#  addMarkers(lat=myTree$lat, lng=myTree$lng,label = paste(myTree$name,myTree$naissance ) ) 
+  
+#brexit_map <- leaflet() %>%
+ # addTiles()
+
+#brexit_map
+```
+
