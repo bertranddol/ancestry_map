@@ -27,11 +27,5 @@ myTree %>%
     stroke = TRUE,
     fillOpacity = .8+(myTree$generation/10)
   )
-#  addMarkers(lat=myTree$lat, lng=myTree$lng,label = paste(myTree$name,myTree$naissance ) ) 
-  
-#brexit_map <- leaflet() %>%
- # addTiles()
-
-#brexit_map
 ```
 
